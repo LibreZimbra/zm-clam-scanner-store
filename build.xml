@@ -1,6 +1,6 @@
 <project name="zm-clam-scanner-store" default="jar" xmlns:ivy="antlib:org.apache.ivy.ant">
 
-    <import file="../zm-zcs/ant-global.xml" />
+    <import file="ant-global.xml" />
 
     <target name="jar" depends="compile" description="Creates the jar file">
         <antcall target="zimbra-jar">
